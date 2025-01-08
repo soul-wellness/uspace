@@ -1,0 +1,38 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "using for HTML and CSS",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "watch": "gulp watch",
+    "server": "live-server"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "YoCoach",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "bootstrap": "^5.3.0-alpha1",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-watch": "^4.0.1",
+    "node-sass": "^9.0.0"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ],
+  "dependencies": {
+    "sass": "^1.75.0",
+    "scss": "^0.2.4"
+  }
+}
